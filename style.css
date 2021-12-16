@@ -1,0 +1,113 @@
+:root {
+    --background-primary: rgb(230, 230, 230);
+    --highlight-primary: #5585b5;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-primary);
+}
+
+.title-container {
+    height: 40vh;
+}
+
+.title-hello {
+    font-family: 'Times New Roman', serif;
+    font-size: 10rem;
+    font-weight: 700;
+}
+
+.title-name {
+    color: var(--background-primary);
+    background-color: var(--highlight-primary);
+
+    font-family: 'Times New Roman', serif;
+    font-size: 4rem;
+    font-weight: 800;
+
+    position: relative;
+    top: -2.5rem;
+}
+
+.title-tag {
+    font-family: 'Times New Roman', serif;
+    font-size: 2rem;
+
+    position: relative;
+    top: -2rem;
+}
+
+.about-me-container {
+    width: 80vw;
+    height: 40vh;
+
+    margin-left: 10vw;
+
+    background-color: var(--highlight-primary);
+}
+
+.about-me-image {
+    width: 20vw;
+    height: 19.4vw;
+
+    border-radius: 100%;
+
+    box-shadow: 10px 5px 10px black;
+}
+
+.about-me-text {
+    color: var(--background-primary);
+
+    font-size: 2rem;
+    font-family: 'Times New Roman', serif;
+
+    text-align: left;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.contact-me-container {
+    margin-top: 10vh;
+
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', serif;
+}
+
+.contact-me-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+.achievements-container {
+    width: 80vw;
+    margin-left: 10vw;
+
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.achievements {
+    font-size: 1.2rem;
+    font-family: 'Verdana';
+}
+
+.achievements-title {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', serif;
+
+    margin-top: 12vh;
+    margin-left: 10vw;
+}
+
+.achievements-image {
+    width: 20vw;
+    height: 18vw;
+
+    border-radius: 100%;
+
+    box-shadow: 10px 5px 10px black;
+}
